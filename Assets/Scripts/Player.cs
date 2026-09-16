@@ -27,6 +27,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         Debug.Log(playerMove.ReadValue<Vector2>());
-        transform.Translate(playerMove.ReadValue<Vector2>() * 100f * Time.deltaTime);
+        transform.Translate(playerMove.ReadValue<Vector2>() * 10f * Time.deltaTime);
     }
 }

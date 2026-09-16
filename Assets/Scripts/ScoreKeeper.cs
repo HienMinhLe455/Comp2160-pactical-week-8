@@ -27,7 +27,7 @@ public class ScoreKeeper : MonoBehaviour
         //Coin.OnPickup -= AddScore;
     }
 
-    private void AddScore(int points)
+    public void AddScore(int points)
     {
         CurrentScore += points;
     }
