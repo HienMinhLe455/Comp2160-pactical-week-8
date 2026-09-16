@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4001b2ea7e3f354f810fd69260c6d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
-  points: 0
+  points: 10
 --- !u!1001 &6984459795180711287
 PrefabInstance:
   m_ObjectHideFlags: 0
